@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="manifest" href="app.webmanifest" />
+    <title>Story App</title>
+  </head>
+  <body>
+    <header>
+      <a href="#main-content" class="skip-link">Skip to Content</a>
+      <div class="main-header container">
+        <div class="brand-wrapper">
+          <a class="brand-name" href="#/">Story</a>
+          <div id="push-notification-tools">
+            <button id="push-subscribe-btn" class="subscribe-button">
+              <i class="fas fa-bell"></i> Subscribe
+            </button>
+            <button id="bookmark-button" class="bookmark-button">
+              <i class="fas fa-bookmark"></i> Bookmark
+            </button>
+          </div>
+        </div>
+
+        <nav id="navigation-drawer" class="navigation-drawer">
+          <ul id="nav-list" class="nav-list">
+            <li><a href="#/"><i class="fas fa-book"></i> Beranda</a></li>
+            <li><a href="#/about"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="#/add"><i class="fas fa-plus-circle"></i> Add Story</a></li>
+            <li><a href="#/subscribe"><i class="fas fa-bell"></i> Subscribe</a></li>
+            <li><a href="#/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+            <li><a href="#/register"><i class="fas fa-user-plus"></i> Register</a></li>
+            <li><a href="#/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+          </ul>
+        </nav>
+
+        <button id="drawer-button" class="drawer-button">☰</button>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content"></main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; Merita 2025 Story App. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

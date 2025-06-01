@@ -1,0 +1,22 @@
+APP_URL=<url_aplikasi>
+MAP_SERVICE_API_KEY=
+Menggunakan leaflet default (OpenStreetMap).
+
+Cara Menggunakan App 
+- Klik register di Nav Bar 
+- Selanjutnya login dengan akun yang sudah diregister
+- Setelah login akan masuk di beranda kita bisa melihat daftar story
+- Jika tidak register dan login dulu beranda muncul gagal memuat data 
+
+API YANG DIGUNAKAN:
+Story API dari Dicoding: https://story-api.dicoding.dev/v1/stories
+
+FITUR YANG DIIMPLEMENTASIKAN:
+- Menampilkan daftar cerita dari API
+- Halaman tambah cerita dengan input foto dan deskripsi
+- Menggunakan kamera browser untuk ambil gambar
+- Mengambil koordinat dari peta saat tambah cerita
+- SPA dengan hash routing
+- Arsitektur MVP
+- Transisi halaman halus dengan View Transition API
+- Fitur aksesibilitas (skip to content, semantic tags, alt text)
