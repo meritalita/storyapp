@@ -1,5 +1,5 @@
-import RegisterView from './register-view.js';
-import StoryAPI from '../data/story-api.js';
+import RegisterView from '../pages/login/register-page.js';
+import StoryAPI from '../services/story-api.js';
 
 class RegisterPresenter {
   async render() {
